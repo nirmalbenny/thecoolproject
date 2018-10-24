@@ -1,0 +1,19 @@
+input[type="text"]{
+    padding:10px;
+}
+ 
+select{
+    padding: 10px;
+  
+    color: orangered;
+    border: none;
+}
+option{
+    border: none;
+}
+form{
+    background: orangered;
+    width: 900px;
+    padding: 10px;
+}
+ 

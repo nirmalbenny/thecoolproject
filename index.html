@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+   
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form method="POST" action="post.php" id="formd">
+        <input type="text" placeholder="Enter Job Title" name="title" >
+        <input type="text" placeholder="Job Location" name="location" >
+        <input type="text" placeholder="Company Name" name="company" >
+        <select name="exp" placeholder="Expereince"> Expereince
+            <option value="Fresher">Fresher</option>
+            <option value="1 Year">1 Year</option>
+            <option value="2-3 Year">2-3 Years</option>
+            <option value="3-5 Year">3-5 Years</option>
+            <option value="Above 5 Years">Above 5 Years</option>
+        </select>
+      POST  <input type="radio" name="method" onclick="setmethod(this)" value="post" checked="checked">
+      GET  <input type="radio" name="method" onclick="setmethod(this)" value="get">
+        <input type="submit" value="ADD JOB">
+        
+    </form>
+    
+</body>
+</html>
